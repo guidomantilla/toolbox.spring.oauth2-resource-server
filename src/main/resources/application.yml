@@ -1,0 +1,16 @@
+server:
+  port: 9002
+  compression:
+    enabled: false
+spring:
+  main:
+    banner-mode: off
+    allow-bean-definition-overriding: false
+  application:
+    name: toolbox.spring.oauth2-resource-server
+  profiles:
+    active: local
+
+
+
+

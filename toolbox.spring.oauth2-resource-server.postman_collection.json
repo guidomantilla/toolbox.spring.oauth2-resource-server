@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "64018c2c-8288-494d-b05f-f4696d4dd1ef",
+		"name": "toolbox.spring.oauth2-resource-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/admins",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiVVNFUl9DTElFTlRfUkVTT1VSQ0UiLCJVU0VSX0FETUlOX1JFU09VUkNFIl0sInVzZXJfbmFtZSI6InVzZXIiLCJzY29wZSI6WyJyb2xlX3VzZXIiXSwiZXhwIjoxNTg4MTI1OTYyLCJhdXRob3JpdGllcyI6WyJjYW5fcmVhZF91c2VyIiwicm9sZV91c2VyIl0sImp0aSI6ImU0ZmYyYTZjLWY1YzMtNDdiZi1hMjlkLWY2MjUxNjZiYTFkZiIsImVtYWlsIjoiam9obkBnbWFpbC5jb20iLCJjbGllbnRfaWQiOiJVU0VSX0NMSUVOVF9BUFAifQ.NMrLCfjHKhUwe75gOCYhx3syoe6jU5KzAN30bCQ5HFqaZLdzBvDdfov5yxDKyD7y4Z9tkQuPQrs-IQ2xnCc6cVvYPLa3c7s9dsqgQosga6CP6f_HwezsOTffsoUL3E9C10MlEo-lZRAq-h801Zw4IRInj3e1yNdn1uu8TwqpZgG2DsbIjv0sRzKVRsN_3RXiLO0ya9u-VpnC4X8IauThgg6GzRbfHY5dcccottwAg8TX1-nx5G3E81sf6t08LtZ92pEKB3Nlf7wnLzKDfPlJlmoVPCLEkr3Ja6xs5FUTWVWGYCsPoJw8hyjciFSJ_cPPlTL49rxQWyMFNAMyjTjWtQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9002/admins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"admins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiVVNFUl9DTElFTlRfUkVTT1VSQ0UiLCJVU0VSX0FETUlOX1JFU09VUkNFIl0sInVzZXJfbmFtZSI6InVzZXIiLCJzY29wZSI6WyJyb2xlX3VzZXIiXSwiZXhwIjoxNTg4MTI1OTYyLCJhdXRob3JpdGllcyI6WyJjYW5fcmVhZF91c2VyIiwicm9sZV91c2VyIl0sImp0aSI6ImU0ZmYyYTZjLWY1YzMtNDdiZi1hMjlkLWY2MjUxNjZiYTFkZiIsImVtYWlsIjoiam9obkBnbWFpbC5jb20iLCJjbGllbnRfaWQiOiJVU0VSX0NMSUVOVF9BUFAifQ.NMrLCfjHKhUwe75gOCYhx3syoe6jU5KzAN30bCQ5HFqaZLdzBvDdfov5yxDKyD7y4Z9tkQuPQrs-IQ2xnCc6cVvYPLa3c7s9dsqgQosga6CP6f_HwezsOTffsoUL3E9C10MlEo-lZRAq-h801Zw4IRInj3e1yNdn1uu8TwqpZgG2DsbIjv0sRzKVRsN_3RXiLO0ya9u-VpnC4X8IauThgg6GzRbfHY5dcccottwAg8TX1-nx5G3E81sf6t08LtZ92pEKB3Nlf7wnLzKDfPlJlmoVPCLEkr3Ja6xs5FUTWVWGYCsPoJw8hyjciFSJ_cPPlTL49rxQWyMFNAMyjTjWtQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9002/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/common",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9002/common",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"common"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
